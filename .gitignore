@@ -5,6 +5,10 @@
 login.*
 password.*
 *-secret-file*.*
+*.[Aa]pi[Kk]ey
+
+#nuget
+*.nupkg
 
 # User-specific files
 *.suo
