@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sources\Crocodev\Crocodev.cs" />
     <Compile Include="Sources\Extensions\ReflectionExtensions.cs" />
     <Compile Include="Sources\Identifier\Identifiable.cs" />
     <Compile Include="Sources\Identifier\Identifier.cs" />
