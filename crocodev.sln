@@ -14,8 +14,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crocodev.Common.Tests", "pr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Deploy", ".Deploy", "{CFFE64E6-2C31-4AB5-8653-909B95A7AD28}"
 	ProjectSection(SolutionItems) = preProject
-		projects\Crocodev.Common\Properties\AssemblyInfo.cs = projects\Crocodev.Common\Properties\AssemblyInfo.cs
-		projects\Crocodev.Common\Crocodev.Common.nuspec = projects\Crocodev.Common\Crocodev.Common.nuspec
 		Tools\nuget-create-deploy-package.ps1 = Tools\nuget-create-deploy-package.ps1
 	EndProjectSection
 EndProject

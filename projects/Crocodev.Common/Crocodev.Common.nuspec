@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>crocodev.common</id>
-    <version>1.0.0.5</version>
+    <version>$version$</version>
     <title>Crocodev Common Classes</title>
-    <authors>Crocodev</authors>
-    <owners>Crocodev</owners>
+    <authors>Roman Koshelev</authors>
+    <owners>Roman Koshelev</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Common classes for the Crocodev's projects</description>
+    <description>$description$</description>
     <releaseNotes>no data</releaseNotes>
-    <copyright>Copyright 2015</copyright>
+    <copyright>$copyright$</copyright>
     <tags></tags>
   </metadata>
 </package>
