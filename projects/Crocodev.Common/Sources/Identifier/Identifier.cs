@@ -34,13 +34,13 @@ namespace Crocodev.Common.Identifier
 
         public static bool operator ==(GenericIdentifier<TC, TV> a, GenericIdentifier<TC, TV> b)
         {
-            Trace.Assert(a != null);
+            Trace.Assert(!ReferenceEquals(null, a));
             return a.Equals(b);
         }
 
         public static bool operator !=(GenericIdentifier<TC, TV> a, GenericIdentifier<TC, TV> b)
         {
-            Trace.Assert(a!=null);
+            Trace.Assert(!ReferenceEquals(null, a));
             return !a.Equals(b);
         }
 
