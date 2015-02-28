@@ -41,7 +41,7 @@ try
 	$nugetApiKey = gc .\nuget.apikey
 	$deployName  = "$packageName.$assemblyVersion.nupkg"
 	.\NuGet.exe setApiKey $NugetApiKey
-	.\NuGet.exe push 333 $deployName
+	.\NuGet.exe push $deployName
 	if ($LASTEXITCODE -eq 1)
 	{
 		throw "deploy package failed"
