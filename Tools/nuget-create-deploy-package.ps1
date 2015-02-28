@@ -6,7 +6,7 @@ try
 	$projectName     = "Crocodev.Common"
 	$projectConfig   = "Release"
 
-	# path
+	# devenv path
 	$env:Path += ";C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\"
 	
 	# values 
@@ -14,11 +14,11 @@ try
 	$assemblyPath    = "$rootPath\projects\$projectName\bin\$projectConfig\$projectName.dll"
 	$packageName     = $projectName.ToLower()
 
-	# build assemply
+	# build assembly
 	devenv.exe $solutionPath /rebuild $projectConfig
 	if ($LASTEXITCODE -eq 1)
 	{
-		throw "build assemply failed"
+		throw "build assembly failed"
 	}
 
 	# get version
@@ -30,7 +30,7 @@ try
 		throw "get version failed"
 	}
 
-	# build package
+	# make package
 	.\NuGet.exe pack ..\projects\$projectName\$projectName.csproj -IncludeReferencedProjects -Prop Configuration=Release
  	if ($LASTEXITCODE -eq 1)
 	{
