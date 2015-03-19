@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nereal.Serialization", "pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nereal.Extensions", "projects\Nereal.Extensions\Nereal.Extensions.csproj", "{BCE9417B-B7B8-4BE6-B4E0-64BB8F64FF7E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{FB3F13E5-57D1-447C-8846-71E8F9833D02}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nereal", "Nereal", "{FB3F13E5-57D1-447C-8846-71E8F9833D02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crocodev", "Crocodev", "{CE2F7E5B-35FF-498C-A6EF-5B21EF52B970}"
 EndProject
