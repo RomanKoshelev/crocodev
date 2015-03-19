@@ -41,14 +41,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sources\Crocodev\Crocodev.cs" />
-    <Compile Include="Sources\Extensions\ReflectionExtensions.cs" />
-    <Compile Include="Sources\Extensions\StringExtensions.cs" />
-    <Compile Include="Sources\Identifier\Identifiable.cs" />
-    <Compile Include="Sources\Identifier\Identifier.cs" />
-    <Compile Include="Sources\SmartConfiguration\SectionNameAttribute.cs" />
-    <Compile Include="Sources\SmartConfiguration\SmartConfigurationElement.cs" />
-    <Compile Include="Sources\SmartConfiguration\SmartConfigurationSection.cs" />
+    <Compile Include="Extensions\FileSystemExtensions.cs" />
+    <Compile Include="Extensions\ReflectionExtensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Identifier\Identifiable.cs" />
+    <Compile Include="Identifier\Identifier.cs" />
+    <Compile Include="SmartConfiguration\SectionNameAttribute.cs" />
+    <Compile Include="SmartConfiguration\SmartConfigurationElement.cs" />
+    <Compile Include="SmartConfiguration\SmartConfigurationSection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nereal.Extensions\Nereal.Extensions.csproj">
+      <Project>{bce9417b-b7b8-4be6-b4e0-64bb8f64ff7e}</Project>
+      <Name>Nereal.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nereal.Serialization\Nereal.Serialization.csproj">
+      <Project>{3f84d09a-e2b3-4487-a576-e1e8b7e469c8}</Project>
+      <Name>Nereal.Serialization</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
