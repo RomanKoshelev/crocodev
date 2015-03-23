@@ -12,29 +12,6 @@ namespace Crocodev.Common.Extensions
     public static class StringExtensions
     {
         // ===================================================================================== []
-        // SafeFormat
-        public static string SafeFormat(this string template, params object[] args)
-        {
-            try
-            {
-                return string.Format(template, args);
-            }
-            catch
-            {
-                // ignored
-            }
-
-            return template;
-        }
-
-        // ===================================================================================== []
-        // TryFormat
-        public static string TryFormat(this string template, params object[] args)
-        {
-            return string.Format(template, args);
-        }
-
-        // ===================================================================================== []
         // FoldToStringBy
         public static string FoldToStringBy<T>(
             this IEnumerable<T> enumerable,
