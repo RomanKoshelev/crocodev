@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Crocodev.Common.Extensions
+namespace Krokodev.Common.Extensions
 {
     public static class StringExtensions
     {

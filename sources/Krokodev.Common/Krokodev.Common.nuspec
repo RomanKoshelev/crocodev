@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>crocodev.common</id>
+    <id>krokodev.common</id>
     <version>$version$</version>
-    <title>Crocodev Common Classes</title>
+    <title>Krokodev Common Classes</title>
     <authors>Roman Koshelev</authors>
     <owners>Roman Koshelev</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

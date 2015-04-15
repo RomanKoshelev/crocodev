@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Crocodev.Common.SmartConfiguration
+namespace Krokodev.Common.SmartConfiguration
 {
     [AttributeUsage(AttributeTargets.Class)]
     public sealed class SectionNameAttribute : Attribute

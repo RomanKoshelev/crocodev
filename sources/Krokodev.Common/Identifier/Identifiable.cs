@@ -3,7 +3,7 @@
 // Identifiable.cs
 // romak_000, 2015-03-19 15:29
 
-namespace Crocodev.Common.Identifier
+namespace Krokodev.Common.Identifier
 {
     public class Identifiable<TC, TV>
     {

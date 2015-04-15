@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Crocodev.Common.Extensions
+namespace Krokodev.Common.Extensions
 {
     public static class FileSystemExtensions
     {

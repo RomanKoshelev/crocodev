@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".deploy", ".deploy", "{CFFE64E6-2C31-4AB5-8653-909B95A7AD28}"
+	ProjectSection(SolutionItems) = preProject
+		Tools\nuget-create-deploy-package.ps1 = Tools\nuget-create-deploy-package.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nereal.Serialization", "sources\Nereal.Serialization\Nereal.Serialization.csproj", "{3F84D09A-E2B3-4487-A576-E1E8B7E469C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nereal.Extensions", "sources\Nereal.Extensions\Nereal.Extensions.csproj", "{BCE9417B-B7B8-4BE6-B4E0-64BB8F64FF7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "-", "-", "{577F3CBB-2A84-4506-93A5-7047B6B4C943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krokodev.Common", "sources\Krokodev.Common\Krokodev.Common.csproj", "{B8D6F968-FC6E-4E3C-999A-F44D93F6ADA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{408BE923-11CA-4615-9187-1EEB7721AA45}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5C6A33FD-AA68-4F99-95AC-EFA426C94CC2}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F84D09A-E2B3-4487-A576-E1E8B7E469C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F84D09A-E2B3-4487-A576-E1E8B7E469C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F84D09A-E2B3-4487-A576-E1E8B7E469C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F84D09A-E2B3-4487-A576-E1E8B7E469C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE9417B-B7B8-4BE6-B4E0-64BB8F64FF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE9417B-B7B8-4BE6-B4E0-64BB8F64FF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE9417B-B7B8-4BE6-B4E0-64BB8F64FF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE9417B-B7B8-4BE6-B4E0-64BB8F64FF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D6F968-FC6E-4E3C-999A-F44D93F6ADA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D6F968-FC6E-4E3C-999A-F44D93F6ADA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D6F968-FC6E-4E3C-999A-F44D93F6ADA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D6F968-FC6E-4E3C-999A-F44D93F6ADA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFFE64E6-2C31-4AB5-8653-909B95A7AD28} = {577F3CBB-2A84-4506-93A5-7047B6B4C943}
+		{408BE923-11CA-4615-9187-1EEB7721AA45} = {577F3CBB-2A84-4506-93A5-7047B6B4C943}
+	EndGlobalSection
+EndGlobal

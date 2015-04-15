@@ -6,7 +6,7 @@
 using System.Configuration;
 using System.Runtime.CompilerServices;
 
-namespace Crocodev.Common.SmartConfiguration
+namespace Krokodev.Common.SmartConfiguration
 {
     public class SmartConfigurationElement : ConfigurationElement
     {

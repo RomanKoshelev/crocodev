@@ -6,7 +6,7 @@
 using System;
 using System.Reflection;
 
-namespace Crocodev.Common.Extensions
+namespace Krokodev.Common.Extensions
 {
     public static class ReflectionExtensions
     {

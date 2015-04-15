@@ -1,33 +1,26 @@
-﻿// Crocodev (c) 2015 Crocodev
-// Crocodev.Common
-// AssemblyInfo.cs
-// romak_000, 2015-03-19 15:29
-
-using System.Reflection;
+﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-
-[assembly: AssemblyTitle("Crocodev.Common")]
-[assembly: AssemblyDescription("Common classes for the Crocodev's projects")]
-[assembly: AssemblyConfiguration("release")]
-[assembly: AssemblyCompany("Crocodev")]
-[assembly: AssemblyProduct("Crocodev.Common")]
-[assembly: AssemblyCopyright("Copyright © 2015")]
+[assembly: AssemblyTitle("Krokodev.Common.Tests")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Krokodev.Common.Tests")]
+[assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.
-
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-
-[assembly: Guid("0a5feeaa-9cf2-4670-b1c4-977d81987f92")]
+[assembly: Guid("7c7caf23-86df-4b1f-8c55-ab77a7423677")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -39,6 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-
-[assembly: AssemblyVersion("1.1.*")]
-[assembly: AssemblyFileVersion("1.1")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

@@ -5,7 +5,7 @@
 
 using System.Diagnostics;
 
-namespace Crocodev.Common.Identifier
+namespace Krokodev.Common.Identifier
 {
     public class GenericIdentifier<TC, TV>
     {

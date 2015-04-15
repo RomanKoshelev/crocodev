@@ -1,9 +1,9 @@
 try
 {
 	# settings
-	$rootPath        = "p:\Projects\crocodev"
-	$solutionName    = "Crocodev"
-	$projectName     = "Crocodev.Common"
+	$rootPath        = "p:\Projects\common"
+	$solutionName    = "Common"
+	$projectName     = "Krokodev.Common"
 	$projectConfig   = "Release"
 
 	# devenv path
@@ -11,7 +11,7 @@ try
 	
 	# values 
 	$solutionPath    = "$rootPath\$solutionName.sln"
-	$assemblyPath    = "$rootPath\projects\$projectName\bin\$projectConfig\$projectName.dll"
+	$assemblyPath    = "$rootPath\sources\$projectName\bin\$projectConfig\$projectName.dll"
 	$packageName     = $projectName.ToLower()
 
 	# build assembly
@@ -31,7 +31,7 @@ try
 	}
 
 	# make package
-	.\NuGet.exe pack ..\projects\$projectName\$projectName.csproj -IncludeReferencedProjects -Prop Configuration=Release
+	.\NuGet.exe pack ..\sources\$projectName\$projectName.csproj -IncludeReferencedProjects -Prop Configuration=Release
  	if ($LASTEXITCODE -eq 1)
 	{
 		throw "build package failed"

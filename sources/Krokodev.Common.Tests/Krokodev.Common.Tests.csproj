@@ -6,8 +6,8 @@
     <ProjectGuid>{46EB6763-4867-49E1-8FAA-1E8F17376436}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Crocodev.Common.Tests</RootNamespace>
-    <AssemblyName>Crocodev.Common.Tests</AssemblyName>
+    <RootNamespace>Krokodev.Common.Tests</RootNamespace>
+    <AssemblyName>Krokodev.Common.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -35,9 +35,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Crocodev.Common">
-      <HintPath>..\..\packages\crocodev.common.1.0.0.4\lib\net451\Crocodev.Common.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -58,6 +55,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Krokodev.Common\Krokodev.Common.csproj">
+      <Project>{b8d6f968-fc6e-4e3c-999a-f44d93f6ada4}</Project>
+      <Name>Krokodev.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

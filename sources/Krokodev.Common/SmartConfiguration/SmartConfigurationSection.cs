@@ -8,9 +8,9 @@ using System.Configuration;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading;
-using Crocodev.Common.Extensions;
+using Krokodev.Common.Extensions;
 
-namespace Crocodev.Common.SmartConfiguration
+namespace Krokodev.Common.SmartConfiguration
 {
     public class SmartConfigurationSection<T> : ConfigurationSection
     {
