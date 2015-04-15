@@ -35,6 +35,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Krokodev.Common, Version=1.1.5583.38602, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\krokodev.common.1.1.5583.38602\lib\net45\Krokodev.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Nereal.Extensions">
+      <HintPath>..\..\packages\krokodev.common.1.1.5583.38602\lib\net45\Nereal.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Nereal.Serialization">
+      <HintPath>..\..\packages\krokodev.common.1.1.5583.38602\lib\net45\Nereal.Serialization.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -55,12 +65,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Krokodev.Common\Krokodev.Common.csproj">
-      <Project>{b8d6f968-fc6e-4e3c-999a-f44d93f6ada4}</Project>
-      <Name>Krokodev.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
