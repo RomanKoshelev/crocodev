@@ -4,7 +4,7 @@ try
 	$rootPath        = "p:\Projects\common"
 	$solutionName    = "Common"
 	$projectName     = "Krokodev.Common"
-	$projectConfig   = "Release"
+	$projectConfig   = "Debug"
 
 	# devenv path
 	$env:Path += ";C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\"
@@ -31,7 +31,7 @@ try
 	}
 
 	# make package
-	.\NuGet.exe pack ..\sources\$projectName\$projectName.csproj -IncludeReferencedProjects -Prop Configuration=Release
+	.\NuGet.exe pack ..\sources\$projectName\$projectName.csproj -IncludeReferencedProjects -Prop Configuration=$projectConfig
  	if ($LASTEXITCODE -eq 1)
 	{
 		throw "build package failed"

@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".deploy", ".deploy", "{CFFE64E6-2C31-4AB5-8653-909B95A7AD28}"
 	ProjectSection(SolutionItems) = preProject
-		Tools\nuget-create-deploy-package.ps1 = Tools\nuget-create-deploy-package.ps1
+		utils\nuget-create-deploy-package.ps1 = utils\nuget-create-deploy-package.ps1
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nereal.Serialization", "sources\Nereal.Serialization\Nereal.Serialization.csproj", "{3F84D09A-E2B3-4487-A576-E1E8B7E469C8}"

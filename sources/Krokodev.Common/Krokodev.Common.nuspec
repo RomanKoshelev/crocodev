@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>krokodev.common</id>
+    <id>Krokodev.Common</id>
     <version>$version$</version>
     <title>Krokodev Common Classes</title>
     <authors>Roman Koshelev</authors>
